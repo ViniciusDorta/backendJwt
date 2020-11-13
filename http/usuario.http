@@ -7,15 +7,15 @@
 @baseUrl = http://localhost:4000
 GET {{baseUrl}}/usuario/eu
 Content-Type: application/json
-x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNWY2YzhjOWMxZmMyOGFiZDZlOTQxYjIyIn0sImlhdCI6MTYwMjc5MDg2OCwiZXhwIjoxNjAyNzk0NDY4fQ.sG_N3fNI2zits0SZeR91bEuXdGMTpMKbTuAQR5293Lk
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNWZhZTlhMjBhNjkxN2EyMTE4MWJlMmI3In0sImlhdCI6MTYwNTI3ODk4MSwiZXhwIjoxNjA1MjgyNTgxfQ.oxScAeTMjW09RBJ6yXaD5-KEzJZQ2uk-j92boOv328Q
 ###
 // POST Login Usuário
 POST {{baseUrl}}/usuario/login
 Content-Type: application/json
 
 {
-    "email": "ricardo.leme@gmail.com",
-    "senha": "secreta"}
+    "email": "vinicius_h.to_dorta@hotmail.com",
+    "senha": "123456"}
 
 ###
 // POST Novo Usuário
@@ -23,7 +23,7 @@ POST {{baseUrl}}/usuario/novo
 Content-Type: application/json
 
 {
-    "nome": "Ricardo Leme",
-    "email": "ricardo.leme@gmail.com",
-    "senha": "secreta",
-    "tipo": "administrador"}
+    "nome": "Vinicius Dorta",
+    "email": "vinicius_h.to_dorta@hotmail.com",
+    "senha": "123456",
+    "tipo": "cliente"}
